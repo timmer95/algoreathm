@@ -2,7 +2,7 @@
 AlgorEAThm is a model used for detecting the chance of malnutrition for notes from Electronic Health Records. It provides classification of notes into "chance of malnutrition is present", "chance of malnutrition is absent" and "chance of malnutrition cannot be determined".
 
 - - - - - - - - - - -
-AlgorEAThm (C) v1 2021
+AlgorEAThm (C) 2021.v1
 READ ME
 - - - - - - - - - - -
 
