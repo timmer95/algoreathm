@@ -11,9 +11,16 @@ READ ME
 STEP 1. 
 
 install python
+download .exe file from https://www.python.org/downloads/
+https://docs.python.org/3.6/using/windows.html#installing-without-ui
+Open (Windows) command prompt & type (replace "python-3.6.0.exe" with your .exe file)
+
+    python-3.6.0.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
+    
+
 
 STEP 2. 
-Open the (Windows) command prompt & type 
+In the (Windows) command prompt, type 
 
     pip install nltk
     pip install numpy
