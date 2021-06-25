@@ -51,9 +51,10 @@ In this folder, put the following files from the folder
 
 
 = = = steps for using AlgorEAThm = = = 
+
 step 1. 
-Open the (Windows) command prompt
-type 
+
+Open the (Windows) command prompt & type 
 
     cd C:\algoreathm 
 
