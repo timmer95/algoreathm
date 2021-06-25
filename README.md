@@ -1,11 +1,12 @@
 # AlgorEAThm
-AlgorEAThm is a model used for detecting the chance of malnutrition for notes from Electronic Health Records. It provides classification of notes into "chance of malnutrition is present", "chance of malnutrition is absent" and "chance of malnutrition cannot be determined".
+AlgorEAThm is a model used for detecting the chance of malnutrition for notes from Electronic Health Records. It provides classification of notes into "chance of malnutrition is present", "chance of malnutrition is absent" and "chance of malnutrition cannot be determined" with Random Forest from scikit-learn. The notes are being preprocessed using NLTK and vectorized with Word2Vec (from gensim). AlgorEAThm can be used to classify notes, but also to assign labels to notes with a user-friendly interface. Moreover, separately performing pre-processing is possible. The settings for the model are BASE_gne_ste_sg_model.sav as Random Forest Classifier (trained on 150 labelled notes, 1000 trees) and BASE_gne_ste_sg_vectors_dict.npy as Vectors for the words (Word2Vec, trained on 100131 preprocessed notes with GNE_STE_SG (Google News Embeddings extended with Self-Trained Embeddings using the Skip-Gram algorithm)). The choice for the GNE_STE_SG embeddings was based on own research, which concluded that GNE_STE_SG embeddings performed slightly better than only Google New Embeddings, Self-Trained Embeddings using the Skip-Gram algorithm, Self-Trained Embeddings using the Continuous-Bag-Of-Words algorithm or the Google News Embeddings extended with Self-Trained Embeddings using the Continuous-Bag-Of-Words.
 
 - - - - - - - - - - -
 AlgorEAThm (C) 2021.v1
 READ ME
 - - - - - - - - - - -
 
+## AlgorEAThm Set-Up
 = = = steps only required once = = = 
 
 STEP 1. 
@@ -60,6 +61,7 @@ In this folder, put the following files from the folder
 
 - - - - - - - - - - - - - - - - - - - - - 
 
+## AlgorEAThm Usage
 = = = steps for using AlgorEAThm = = = 
 
 STEP 1.
