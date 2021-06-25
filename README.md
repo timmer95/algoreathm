@@ -8,11 +8,11 @@ READ ME
 
 = = = steps only required once = = = 
 
-step 1. 
+STEP 1. 
 
 install python
 
-step 2. 
+STEP 2. 
 Open the (Windows) command prompt & type 
 
     pip install nltk
@@ -26,10 +26,12 @@ Open the (Windows) command prompt & type
     pip install statistics
     pip install warnings
 
-step 3.  
+STEP 3. 
+
 Create a folder on local disk (C:\) called 'algoreathm'
 
-step 4. 
+STEP 4. 
+
 In this folder, put the following files from the folder 
 (either from GitHub* or Google Drive):
 
@@ -53,19 +55,19 @@ In this folder, put the following files from the folder
 
 = = = steps for using AlgorEAThm = = = 
 
-step 1. 
+STEP 1.
 
 Open the (Windows) command prompt & type 
 
     cd C:\algoreathm 
 
-step 2.
+STEP 2. 
 
 type 
 
     python algoreathm.py 
 
-step 3.
+STEP 3.
 
 Choose the action to take
 
