@@ -59,14 +59,16 @@ Open the (Windows) command prompt & type
     cd C:\algoreathm 
 
 step 2.
+
 type 
 
     python algoreathm.py 
 
 step 3.
+
 Choose the action to take
 
-N.B: 
+< < N.B: > >  
 !!! NEVER DELETE THE BASE FILES OR FUNCTION FILES !!!
 
 All the filenames provided should be without the .type. 
