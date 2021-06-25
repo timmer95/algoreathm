@@ -13,8 +13,7 @@ step 1.
 install python
 
 step 2. 
-Open the (Windows) command prompt
-type 
+Open the (Windows) command prompt & type 
 
     pip install nltk
     pip install numpy
