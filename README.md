@@ -70,7 +70,7 @@ step 3.
 Choose the action to take
 
 < < N.B: > >  
-!!! NEVER DELETE THE BASE FILES OR FUNCTION FILES !!!
+Don't delete the BASE files or function files, the model won't work anymore. However you can re-download them from GitHub/Google Drive. 
 
 All the filenames provided should be without the .type. 
     Example: NOTEEVENTS.csv should be provided as NOTEEVENTS
