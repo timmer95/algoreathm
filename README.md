@@ -1,4 +1,4 @@
-# algoreathm
+# AlgorEAThm
 AlgorEAThm is a model used for detecting the chance of malnutrition for notes from Electronic Health Records. It provides classification of notes into "chance of malnutrition is present", "chance of malnutrition is absent" and "chance of malnutrition cannot be determined".
 
 - - - - - - - - - - -
@@ -13,6 +13,7 @@ install python
 step 2. 
 Open the (Windows) command prompt
 type 
+
     pip install nltk
     pip install numpy
     pip install pandas
@@ -30,6 +31,7 @@ Create a folder on local disk (C:\) called 'algoreathm'
 step 4. 
 In this folder, put the following files from the folder 
 (either from GitHub* or Google Drive):
+
     algoreathm.py
     classification_functions.py
     labelling_functions.py
@@ -44,16 +46,20 @@ In this folder, put the following files from the folder
     
     NOTEEVENTS_50notes.csv
 
-*The BASE files are too large for GitHub
+*The BASE files are too large for GitHub so download them from Google Drive: https://drive.google.com/drive/folders/1CdAq0QOKlLU8hci37RL1eqTTJ1YxMYTE?usp=sharing
 
 
 = = = steps for using AlgorEAThm = = = 
 step 1. 
 Open the (Windows) command prompt
-type < cd C:\algoreathm >
+type 
+
+    cd C:\algoreathm 
 
 step 2.
-type < python algoreathm.py >
+type 
+
+    python algoreathm.py 
 
 step 3.
 Choose the action to take
