@@ -6,8 +6,8 @@ AlgorEAThm (C) v1 2021
 READ ME
 - - - - - - - - - - -
 
-= = = steps only required once = = = 
-step 1. 
+= = = steps only required once = = = \n
+step 1. \n
 install python
 
 step 2. 
